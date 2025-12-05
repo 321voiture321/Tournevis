@@ -25,43 +25,28 @@ header {
 }
 
 nav ul {
-  list-style: none;
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
-  width: 100%;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
 }
 
 nav ul li {
-  flex: 1; /* chaque bouton prend la même largeur */
   text-align: center;
-  cursor: pointer;
-  color: var(--neon-color);
-  text-shadow: var(--neon-shadow-1), var(--neon-shadow-2);
-  transition: 0.3s ease;
-  padding: 10px 0;
-  border-right: 1px solid #68c5ff;
 }
 
-/* enlève la bordure du dernier bouton */
-nav ul li:last-child {
-  border-right: none;
+nav ul li a {
+  color: var(--neon);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 8px var(--neon);
+  transition: 0.2s;
 }
 
-nav ul li:hover {
-  text-shadow: var(--neon-shadow-2), var(--neon-shadow-3), var(--neon-shadow-4);
-  transform: scale(1.08);
-}
-
-nav ul li {
-  cursor: pointer;
-  color: var(--neon-color);
-  text-shadow: var(--neon-shadow-1), var(--neon-shadow-2);
-  transition: 0.3s ease;
-}
-
-nav ul li:hover {
-  text-shadow: var(--neon-shadow-2), var(--neon-shadow-3), var(--neon-shadow-4);
+nav ul li a:hover {
+  text-shadow: 0 0 14px var(--neon), 0 0 22px var(--neon);
   transform: scale(1.08);
 }
 
