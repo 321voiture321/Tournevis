@@ -88,7 +88,7 @@ function verify() {
     argent.monnaie += 200;
     console.log("monnaie : " + argent.monnaie);
     localStorage.setItem("argent", JSON.stringify(argent));
-    alert("Bien jouer");
+    alert("Bien joué");
   } else {
     alert("Faux");
   }

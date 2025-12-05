@@ -26,22 +26,24 @@
       <form action="#" method="get">
         <p>Question</p>
         <p id="question">je suis la question que l'on pose et tout là</p>
-
-        <div class="quiz-option">
-          <input type="radio" name="answer" id="1">
-          <label for="1" id="label1" name="answer"></label>
-        </div>
-
+        <label for="1">
+          <div class="quiz-option">
+            <input type="radio" name="answer" id="1">
+            <label for="1" id="label1" name="answer"></label>
+          </div>
+        </label>
+        <label for="2">
         <div class="quiz-option">
           <input type="radio" name="answer" id="2">
           <label for="2" id="label2" name="answer"></label>
         </div>
-
+        </label>
+        <label for="3">
         <div class="quiz-option">
           <input type="radio" name="answer" id="3">
           <label for="3" id="label3" name="answer"></label>
         </div>
-
+        </label>
         <button onclick="verify()" type="submit" name="answer" id="confirmButton">Valider</button>
       </form>
 
