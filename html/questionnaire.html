@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/questionnaire.css" />
     <title>Gacha - Questionnaire</title>
   </head>
-  <body>
+  <body onload="formQuestionnaire.reset();">
     <header>
       <nav>
         <ul>
@@ -23,7 +23,7 @@
         <img src="/img/meuf.png" id="imgGauche" alt="Image gauche">
       </div>
 
-      <form action="#" method="get">
+      <form action="#" method="get" name="formQuestionnaire">
         <p>Question</p>
         <p id="question">je suis la question que l'on pose et tout là</p>
         <label for="1">
