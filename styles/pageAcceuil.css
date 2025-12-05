@@ -1,18 +1,16 @@
 /* NEON VARIABLES */
 :root {
-  --neon-color: #68c5ff;
-  --neon-shadow-1: 0 0 2px var(--neon-color);
-  --neon-shadow-2: 0 0 12px var(--neon-color);
-  --neon-shadow-3: 0 0 26px #68c5ff;
-  --neon-shadow-4: 0 0 35px #68c5ff;
+  --neon: #68c5ff;
+  --bg: #0d0722;
+  --card-bg: #150d34;
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #160f35;
-  color: var(--neon-color);
+  background: var(--bg);
+  color: var(--neon);
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 /* HEADER */
@@ -69,7 +67,7 @@ p {
 }
 
 img {
-  width: 50px;
+  width: 40px;
 }
 
 /* FOOTER */
