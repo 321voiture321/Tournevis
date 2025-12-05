@@ -10,9 +10,6 @@ body {
   background: var(--bg);
   color: var(--neon);
   font-family: "Segoe UI", Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
 }
 
 header {
@@ -56,7 +53,6 @@ nav ul li a:hover {
   width: 100%;
   padding-top: 120px;
   box-sizing: border-box;
-  max-width: 1200px;
 }
 
 .side-block {
