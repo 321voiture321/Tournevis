@@ -38,15 +38,15 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--neon);
+  color: var(--neon-color);
   text-decoration: none;
   font-weight: bold;
-  text-shadow: 0 0 8px var(--neon);
+  text-shadow: 0 0 8px var(--neon-color);
   transition: 0.2s;
 }
 
 nav ul li a:hover {
-  text-shadow: 0 0 14px var(--neon), 0 0 22px var(--neon);
+  text-shadow: 0 0 14px var(--neon-color), 0 0 22px var(--neon-color);
   transform: scale(1.08);
 }
 
