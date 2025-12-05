@@ -13,7 +13,6 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* HEADER */
 header {
   background: rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 12px var(--neon);
@@ -47,7 +46,6 @@ nav ul li a:hover {
   transform: scale(1.08);
 }
 
-/* CONTENT */
 .content {
   padding: 120px 0;
   text-align: center;
@@ -70,7 +68,6 @@ img {
   width: 40px;
 }
 
-/* FOOTER */
 footer {
   background-color: #1d1d1d;
   text-align: center;
