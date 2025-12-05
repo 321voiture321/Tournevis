@@ -11,36 +11,44 @@
       <nav>
         <ul>
           <li><img src="/img/logo.png" alt="Logo du site" /></li>
-          <li> <a href="/html/pageAcceuil.html">Accueil</a></li>
-          <li> <a href="/html/questionnaire.html">Quiz</a></li>
+          <li><a href="/html/pageAcceuil.html">Accueil</a></li>
+          <li><a href="/html/questionnaire.html">Quiz</a></li>
         </ul>
       </nav>
     </header>
-    <div class="side-block">
-        <img src="/img/meuf.png" alt="Image droite">
-    </div>
-    <form action="#" method="get">
-      <p>Question</p>
-      <p id="question">je suis la question que l'on pose et tout là</p>
-      <div class="quiz-option">
-        <input type="radio" name="answer" id="1">
-        <label for="answer1" name="answer" id="label1"></label>
+
+    <div class="quiz-layout">
+      <div class="side-block">
+        <img src="/img/meuf.png" alt="Image gauche">
       </div>
-      <div class="quiz-option">
-        <input type="radio" name="answer" id="2">
-        <label for="answer2" name="answer" id="label2"></label>
-      </div>
-      <div class="quiz-option">
-        <input type="radio" name="answer" id="3">
-        <label for="answer3" name="answer" id="label3"></label>
-      </div>
-      <button onclick="verify()" type="submit" name="answer" id="confirmButton">
-        Valider
-      </button>
-    </form>
-    <div class="side-block">
+
+      <form action="#" method="get">
+        <p>Question</p>
+        <p id="question">je suis la question que l'on pose et tout là</p>
+
+        <div class="quiz-option">
+          <input type="radio" name="answer" id="1">
+          <label for="1" id="label1" name="answer"></label>
+        </div>
+
+        <div class="quiz-option">
+          <input type="radio" name="answer" id="2">
+          <label for="2" id="label2" name="answer"></label>
+        </div>
+
+        <div class="quiz-option">
+          <input type="radio" name="answer" id="3">
+          <label for="3" id="label3" name="answer"></label>
+        </div>
+
+        <button onclick="verify()" type="submit" name="answer" id="confirmButton">Valider</button>
+      </form>
+
+      <div class="side-block">
         <img src="/img/bird.png" alt="Image droite">
+      </div>
     </div>
+
     <script src="../javascript/questionnaire.js"></script>
   </body>
 </html>
