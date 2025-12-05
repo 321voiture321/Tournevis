@@ -14,6 +14,7 @@ body {
 
 #logo{
   height: 50px;
+  width: 50px;
   padding-left: 10px;
 }
 
@@ -68,6 +69,7 @@ img {
   box-shadow: 0 0 15px var(--neon);
   border-radius: 12px;
   text-align: center;
+  margin-top: 5%;
 }
 
 .side-block img {
@@ -153,9 +155,9 @@ button:hover {
 }
 
 #side-block-left{
-  margin-right: 25%;
+  margin-right: 15%;
 }
 
 #side-block-right{
-  margin-left: 25%;
+  margin-left: 15%;
 }
